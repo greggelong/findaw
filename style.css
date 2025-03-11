@@ -13,4 +13,22 @@ canvas {
     yellow 80px,
     yellow 160px  /* Thickness of yellow stripe */
   );
+  
+}
+
+
+.loadingclass {
+  position: absolute; /* Position it absolutely within the parent */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  color: rgb(255, 3, 3); /* Text color */
+  font-family: monospace; /* Monospace font for the preformatted text */
+  font-size: x-large; /* Adjust font size */
+  text-align: center; /* Center-align the text */
+  z-index: 10; /* Ensure it's above the background */
+}
+
+pre {
+  margin: 0; /* Remove default margin */
 }
